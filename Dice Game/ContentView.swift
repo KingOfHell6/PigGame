@@ -178,7 +178,6 @@ struct DiceRollerView: View {
             withAnimation(.default){
                 method()
             }
-            print("Botão ROLL")
         } , label: {
             Text(name)
         }).buttonStyle(.borderedProminent).font(.largeTitle)
